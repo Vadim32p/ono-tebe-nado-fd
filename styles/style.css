@@ -88,11 +88,12 @@
     line-height: 1.2;
     letter-spacing: 30px;
 }
-.aligned-text_center{
+.aligned-text_center {
     line-height: 1.2;
     text-align: center;
-}
-.aligned-text_right{
+} 
+
+.aligned-text_right {
     line-height: 1.2;
     text-align: right;
 }
