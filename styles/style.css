@@ -1,8 +1,7 @@
-/* место для вашего кода */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items:center;
+    align-items: center;
     padding: 94px 51px 94px 51px;
     width: 100%;
     margin: auto;
@@ -29,14 +28,14 @@
 
 .header_logo {
     justify-content: center;
-    width:138px;
-    height:105px;
+    width: 138px;
+    height: 105px;
 }
 
 .header_address {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    max-width:239px;
+    max-width: 239px;
     justify-self: end;
     font-weight: 400;
     font-style: normal;
@@ -53,12 +52,11 @@
     display: flex;
     flex-direction: column;
     min-height: 757px;
-
 }
 
 .overlay {
-    position:absolute;
-    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
     width: 100%;          
@@ -84,6 +82,7 @@
     line-height: 1.2;
     letter-spacing: 30px;
 }
+
 .aligned-text_center {
     line-height: 1.2;
     text-align: center;
@@ -263,7 +262,7 @@
   font-weight: 400;
   font-size: 20px;
   color: #000000;
-  margin:1px 42px 1px 1px;
+  margin: 1px 42px 1px 1px;
   line-height: 24px;
 }
 
