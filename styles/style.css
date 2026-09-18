@@ -32,7 +32,7 @@
     height: 105px;
 }
 
-.header_address {
+.address-block {
     display: flex;
     flex-direction: column;
     max-width: 239px;
@@ -267,7 +267,6 @@
 }
 
 .footer {
-    min-height: 180px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 18px;
@@ -275,12 +274,8 @@
     padding-bottom: 100px;
 }
 
-.address {
-    display: flex;
-    flex-direction: column;
+.footer_address {
     justify-self: flex-start;
-    font-style: normal;
-    line-height: 1.4;
     margin-left: 50px;
 }
 
